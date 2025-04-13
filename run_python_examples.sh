@@ -191,7 +191,7 @@ function run_all() {
   # distributed moved to `run_distributed_examples.sh`
   fast_neural_style
   imagenet
-  language_translation
+  # language_translation
   mnist
   mnist_forward_forward
   mnist_hogwild
@@ -202,7 +202,7 @@ function run_all() {
   super_resolution
   time_sequence_prediction
   vae
-  vision_transformer
+  # vision_transformer - example broken see https://github.com/pytorch/examples/issues/1184 and https://github.com/pytorch/examples/pull/1258 for more details
   word_language_model
   fx
   gcn
